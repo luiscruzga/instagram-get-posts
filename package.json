@@ -1,0 +1,32 @@
+{
+  "name": "instagram-get-posts",
+  "version": "1.0.0",
+  "description": "Allows to obtain the posts of an instagram profile",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscruzga/instagram-get-posts.git"
+  },
+  "keywords": [
+    "instagram",
+    "ig",
+    "get-post",
+    "get-posts",
+    "instagram-get-posts",
+    "instagram-get-post"
+  ],
+  "author": "Luis Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiscruzga/instagram-get-posts/issues"
+  },
+  "homepage": "https://github.com/luiscruzga/instagram-get-posts#readme",
+  "dependencies": {
+    "image-to-base64": "^2.2.0",
+    "request": "^2.88.2"
+  }
+}
